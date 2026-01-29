@@ -27,3 +27,4 @@ RUN if [ "${XDEBUG}" = "1" ]; then \
             "xdebug.remote_host=host.docker.internal\n"\
             "xdebug.remote_log=/var/log/xdebug.log" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini \
     ; fi
+
